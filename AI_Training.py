@@ -25,12 +25,12 @@ from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 
-from imutils import paths;
-import matplotlib.pyplot as plt;
-import argparse;
-import os;
-import cv2;
-import numpy as np;
+from imutils import paths
+import matplotlib.pyplot as plt
+import argparse
+import os
+import cv2
+import numpy as np
 
 # Load the images directories
 labels = ['glioma', 'meningioma', 'notumor', 'pituitary']
